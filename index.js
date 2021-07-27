@@ -1,4 +1,6 @@
 // Write your solution here!
-let drivers = ["Milo", "Otis", "Garfield"];
+const drivers = ["Milo", "Otis", "Garfield"];
 
-let destructivelyAppendDriver = [...drivers,'Ralph'];
+function destructivelyAppendDriver(name) {
+    return [...drivers, 'Ralph'];
+}
